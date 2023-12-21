@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Tripl</title>
+</head>
+
+<body class="vh-100 overflow-hidden">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <!--Logo-->
+            <a class="navbar-brand fs-1 logo" href="index.html">Tripl</a>
+            <!--Toggle button-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Sidebar-->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <!--Sidebar Header-->
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title logo" id="offcanvasNavbarLabel">Tripl</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!--Sidebar Body-->
+                <div class="offcanvas-body flex-column flex-lg-row p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item menu-item mx-2">
+                            <a class="nav-link" href="Home.html">Home</a>
+                        </li>
+                        <li class="nav-item menu-item mx-2">
+                            <a class="nav-link" href="#">Tour Packages</a>
+                        </li>
+                        <li class="nav-item menu-item mx-2">
+                            <a class="nav-link" href="#">Find Tourist</a>
+                        </li>
+                        <li class="nav-item menu-item mx-2">
+                            <a class="nav-link" href="#">Trip Decider</a>
+                        </li>
+                        <li class="nav-item menu-item mx-2">
+                            <a class="nav-link" href="#">Tourism Videos</a>
+                        </li>
+                        <li class="nav-item menu-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu submenu">
+                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                                <li><a class="dropdown-item" href="#">Terms And Condition</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!--Search Bar flex-column-->
+                    <form class="d-flex  mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success search" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Video Slider Navigation Bar-->
+    <section class="home">
+        <!--Videos-->
+        <video class="video-slide active" src="Videos/video2.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="Videos/video4.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="Videos/video1.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="Videos/video3.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="Videos/video5.mp4" autoplay muted loop></video>
+        <!--Content for Videos-->
+        <div class="content active">
+            <h1>Wonderful.<br><span>Island</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur assumenda iure alias magni laborum esse, laudantium maiores autem ipsum dignissimos nostrum consequuntur, inventore temporibus hic, ipsam non in! Sunt, dicta!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Adventures.<br><span>OffRoad</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur assumenda iure alias magni laborum esse,
+                laudantium maiores autem ipsum dignissimos nostrum consequuntur, inventore temporibus hic, ipsam non in! Sunt,
+                dicta!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>FeelNature.<br><span>Relax</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur assumenda iure alias magni laborum esse,
+                laudantium maiores autem ipsum dignissimos nostrum consequuntur, inventore temporibus hic, ipsam non in! Sunt,
+                dicta!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>Camping.<br><span>Enjoy</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur assumenda iure alias magni laborum esse,
+                laudantium maiores autem ipsum dignissimos nostrum consequuntur, inventore temporibus hic, ipsam non in! Sunt,
+                dicta!</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="content">
+            <h1>RoadTrip.<br><span>Together</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur assumenda iure alias magni laborum esse,
+                laudantium maiores autem ipsum dignissimos nostrum consequuntur, inventore temporibus hic, ipsam non in! Sunt,
+                dicta!</p>
+            <a href="#">Read More</a>
+        </div>
+        <!--Media Icons-->
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <!--Dots Representing the Slides-->
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
