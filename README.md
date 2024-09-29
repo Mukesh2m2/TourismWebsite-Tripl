@@ -1,6 +1,12 @@
 # Tourism Website - Tripl
 Responsive two page website with some amazing scrolling and sliding features.
 
+## My Website
+[Home Page]([https://mukesh2m2.github.io/TourismWebsite-Tripl/Home.html]) : https://mukesh2m2.github.io/TourismWebsite-Tripl/Home.html
+
+[Index Page]([https://mukesh2m2.github.io/TourismWebsite-Tripl/index.html]) : https://mukesh2m2.github.io/TourismWebsite-Tripl/index.html
+
+
 ## Features
 Home Page
 - Image Slider(scrolling sliding as well as small image buttons for sliding on click)
